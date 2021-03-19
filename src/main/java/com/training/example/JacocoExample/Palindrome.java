@@ -5,6 +5,7 @@ public class Palindrome {
 	public boolean isPalindrome(String inputString) {
 	    if (inputString.length() == 0) {
 	        return true;
+	        //test stannar här
 	    } else {
 	    	String rev = "";
 	    	int length = inputString.length();
